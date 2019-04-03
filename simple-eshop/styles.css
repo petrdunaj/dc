@@ -1,0 +1,158 @@
+﻿h1 {
+	color: #06B;
+	text-align: center;
+	font-size: 3em;
+}
+
+h3 {
+    margin: 0;
+	font-size: 1.5em;
+}
+
+#shoppingbasket {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+	box-shadow: 1px 1px 3px #999;
+    padding: 1px;
+    height: 64px;
+    width: 64px;
+}
+#shoppingbasket img {
+    height: 62px;
+    width: 62px;
+}
+#shoppingbasket span {
+    position: absolute;
+    margin: 4px;
+    top: 0px;
+    right: 0px;
+    padding: 0 3px;
+    font-family: 'Courier New', Courier;
+	font-size: 1.5em;
+    font-weight: bold;
+	color: #093;
+    text-decoration: none;
+    background-color: #FFF;
+    border: 2px solid #73AD21;
+    border-radius: 5px;
+}
+
+#products {
+	margin: auto;	
+    width: 800px;
+}
+
+#products .prod {
+	margin: 16px;
+    height: 160px;
+	border: 1px solid gray;
+	box-shadow: 3px 3px 6px #999;
+}
+
+#products .prod img {
+    float: left;
+    margin: 16px;
+	border: 1px solid lightgray;
+	box-shadow: 1px 1px 3px #999;
+    height: 128px;
+    width: 128px;
+}
+
+#products .name {
+    float: left;
+    margin: 16px;
+    height: 128px;
+    max-width: 390px;
+}
+
+#products .categories span + span:before {
+    content: " :: ";
+}
+
+#products .name p {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#products .basket {
+    float: right;
+    padding: 24px;
+    font-weight: bold;
+}
+
+.price {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 12px;
+}
+
+.onstock {
+    text-align: center;
+    color: #4B9A41;
+}
+.outofstock {
+    text-align: center;
+    color: #CA0B41;
+}
+
+.green-button {
+    margin-top: 20px;
+    border: 1px solid #4CAF50;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: #FFF;
+    text-decoration: none;
+}
+.green-button:hover {
+    background-color: #FFF;
+    color: #4CAF50;
+}
+.green-button:active {
+    background-color: #4CAF50;
+    color: #FFF;
+}
+
+.red-button {
+    margin-top: 20px;
+    border: 1px solid #AF4C50;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #AF4C50;
+    color: #FFF;
+    text-decoration: none;
+}
+.red-button:hover {
+    background-color: #FFF;
+    color: #4CAF50;
+}
+
+.grey-button {
+    margin-top: 20px;
+    border: 1px solid #999;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #999;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#checkout {
+	margin: auto;	
+    width: 800px;
+	padding: 16px;
+	border: 1px solid gray;
+	box-shadow: 3px 3px 6px #999;
+}
+#checkout table, #checkout th, #checkout td {
+    border: none;
+}
+#checkout table {
+    width: 99%;
+}
+#checkout th:not(:first-child), #checkout td:not(:first-child) {
+    text-align: right;
+}
+
+
